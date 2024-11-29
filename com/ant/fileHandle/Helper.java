@@ -1,7 +1,6 @@
-package com.mm.aungnaingthu.contact;
+package com.ant.fileHandle;
 
 public class Helper {
-
     public void banner(String text) {
         printStar(text, text.length());
     }

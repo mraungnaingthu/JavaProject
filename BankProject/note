@@ -1,0 +1,6 @@
+1. Register account >>> id(auto increase), username, userEmail, userPassword, gender, balance
+   username & email & password use Regression
+2. Login account >>> ask id - if id have, login with userEmail & userPassword - if correct, show acc info
+   - check what to continue (1.withdrawal, 2.deposit, 3.transfer, 4.logout)
+3. Terminate account >> ask id - if id have show info - if info correct, delete account.
+4. Exit
