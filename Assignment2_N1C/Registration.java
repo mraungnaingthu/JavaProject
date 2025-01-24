@@ -137,8 +137,8 @@ public class Registration {
                         return;
                     }
 
+                    int score = 0;
                     for (int j = 0; j < exam.size(); j++) {
-                        int score = 0;
 
                         System.out.println("Question " + (j + 1) + ":");
                         exam.get(j).displayQuestion();
@@ -156,8 +156,7 @@ public class Registration {
                             System.out.println("Correct Answer: " + exam.get(j).getCorrectAnswer()); // Optional
                         }
 
-                        System.out.printf("Your total score is %d", score);
-                        System.out.println();
+                        System.out.printf("Your total score is %d\n", score);
                     }
 
                 }
